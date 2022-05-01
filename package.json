@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-incr-msum",
-  "version": "0.0.0",
+  "version": "0.0.6",
   "description": "Compute a moving sum incrementally.",
   "license": "Apache-2.0",
   "author": {
