@@ -1,4 +1,0 @@
-// Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./index.d.ts" />
-import e from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-positive-integer@esm/index.mjs";import r from"https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-nan@esm/index.mjs";import s from"https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-fmtprodmsg@esm/index.mjs";var i=e.isPrimitive,n=r,m=s,o=t;var d=function(e){var r,s,t,d;if(!i(e))throw new TypeError(o("0eT8T",e));return r=new m(e),s=0,d=-1,t=0,function(i){var m;if(0===arguments.length)return 0===t?null:s;if(d=(d+1)%e,n(i))t=e,s=NaN;else if(t<e)t+=1,s+=i;else if(n(r[d])){for(t=1,s=i,m=0;m<e;m++)if(m!==d){if(n(r[m])){t=e,s=NaN;break}t+=1,s+=r[m]}}else!1===n(s)&&(s+=i-r[d]);return r[d]=i,s}};export{d as default};
-//# sourceMappingURL=index.mjs.map
